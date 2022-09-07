@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,13 +92,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css",
-              "ProyectoIntegrador_IbanezCarlos/node_modules/bootstrap/dist/css/bootstrap.css"
-            ],
-            "scripts": [
-              "ProyectoIntegrador_IbanezCarlos/node_modules/bootstrap/dist/js/bootstrap.js"
-            ]
+            "styles": [],
+            "scripts": []
           }
         }
       }
